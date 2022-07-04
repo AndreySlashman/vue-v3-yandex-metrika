@@ -1,24 +1,17 @@
 {
   "name": "vue-v3-yandex-metrika",
-  "version": "0.0.2-development",
-  "description": "Yandex Metrika plugin for Vue3",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ddtikhonov/vue-v3-yandex-metrika.git"
+    "url": "git+https://github.com/AndreySlashman/vue-v3-yandex-metrika.git"
   },
   "scripts": {
-    "commit": "git-cz",
     "dev": "node ./config/scripts/dev.js",
     "build": "node ./config/scripts/build.js",
     "prepublishOnly": "node ./config/scripts/build.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "semantic-release": "semantic-release"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   },
   "keywords": [
     "vue3",
@@ -41,12 +34,6 @@
   "files": [
     "dist"
   ],
-  "author": "Daniil Tikhonov <ddtikh0n0v@yandex.ru>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ddtikhonov/vue-v3-yandex-metrika/issues"
-  },
-  "homepage": "https://github.com/ddtikhonov/vue-v3-yandex-metrika#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
